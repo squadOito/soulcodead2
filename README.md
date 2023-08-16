@@ -1,5 +1,7 @@
 # **Projeto Final**
 
+## Tema: **Energia**
+
 Bem-vindo ao repositório do projeto de análise de dados "PANORAMA NACIONAL DE ENERGIAS RENOVÁVEIS NO BRASIL: RISCOS E OPORTUNIDADES".
 
 Este repositório contém alguns dos recursos utilizados para realizar análises de dados sobre tema proposto no projeto de conclusão do BOOTCAMP MARTECH SOULCODE ACADEMY - ANALISTA DE DADOS - AD2.
@@ -64,7 +66,3 @@ Para auxiliar no entendimento do projeto, seguem o dicionário e amostragem do c
 
 ## Licença
 Este projeto é licenciado sob a licença MIT.
-
-Divirta-se explorando as várias maneiras de realizar análises de dados neste projeto! Se tiver alguma dúvida ou problema, não hesite em entrar em contat
-
-
