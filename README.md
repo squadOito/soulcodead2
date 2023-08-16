@@ -1,6 +1,20 @@
 # **Projeto Final**
 
-Bem-vindo ao repositório do projeto de análise de dados! Este repositório contém o código e os recursos utilizados para realizar análises de dados utilizando diversas tecnologias e ferramentas. Aqui, você encontrará informações sobre como usar o Google Colab, Google Cloud Storage, BigQuery, Looker Studio, Power BI, MongoDB, Python Pandas e PySpark para realizar análises avançadas.
+Bem-vindo ao repositório do projeto de análise de dados "PANORAMA NACIONAL DE ENERGIAS RENOVÁVEIS NO BRASIL: RISCOS E OPORTUNIDADES".
+Este repositório contém alguns dos recursos utilizados para realizar análises de dados sobre tema proposto no projeto de conclusão do BOOTCAMP MARTECH SOULCODE ACADEMY - ANALISTA DE DADOS - AD2.
+
+Foram utilizadas tecnologias e ferramentas como o Google Colab, Google Cloud Storage, BigQuery, Looker Studio, Power BI, MongoDB, Python Pandas e PySpark para realizar análises avançadas.
+
+## Contexto 
+A energia produzida em território nacional tem como principal fonte de geração as usinas hidrelétricas.
+
+Entretanto, nos últimos anos, mais precisamente a partir de 2017, observa-se um crescimento acentuado de energias renováveis. Segundo as consultas realizadas no projeto, em bases de dados públicas, sejam governamentais ou particulares, parte da evolução da energia pode ser explicada pela grande expansão de geração e oferta de energia solar, que a partir de 2017 cresceu em ritmo acelerado, acompanhado também pela energia eólica, de forma mais discreta. 
+
+O Brasil é um país de dimensões continentais e possui extensas áreas tem cobertura de radiação solar por longos meses, como parte do Sudeste e Centro-Oeste e principalmente a região Nordeste, onde concentra-se maior quantidade de usinas e fazendas para geração centralizada de energia solar. Contudo essa não é a única fonte de geração de energia solar. A longa exposição solar em todo o país, somada a incentivos e regulamentações inovadoras, favorecendo a utilização de energias renováveis, em especial, a energia solar fotovoltaica,  permitiu a instalação das mini e micro geradoras de energia solar, denominada de geração distribuída. 
+
+A geração distribuída, principalmente resultante do excedente de energia produzida e da geração compartilhada tem aumentado consideravelmente ano a ano a disponibilidade de energia no sistema de distribuição, barateando a médio prazo os custos de geração, já que os investimentos necessários são diluídos ao longo do tempo.
+
+Destaca-se, aqui, além do alívio à sobrecarga da matriz energética nacional, a utilização de novas tecnologias que demandem uso de energia elétrica, como o abastecimento de pontos de recarga para carros híbridos e elétricos, instalados em diversas localidades. Servindo como complemento de fonte de fornecimento, esses pontos ajudam a ampliar a oferta de local, próxima a pontos de recarga e/ou alta demanda consumidora, consequentemente, a aumentando a utilização de equipamentos e veículos a base de energia limpa.
 
 ## Recursos Utilizados
 Neste projeto, utilizamos as seguintes ferramentas e tecnologias:
@@ -24,21 +38,28 @@ Neste projeto, utilizamos as seguintes ferramentas e tecnologias:
 ## Notebooks e Scripts
 Neste repositório, você encontrará os seguintes notebooks e scripts:
 
-<a href="1_google_colab_intro.ipynb" target="_blank">1_google_colab_intro.ipynb</a>: Introdução ao uso do Google Colab para análise de dados.
+<a href="fator_capacidade_mwh_2015_2023.ipynb" target="_blank">notebook_fator_capacidade</a>: Notebook Colab com processo ETL e análise de dados com Pandas.
 
-<a href="2_google_cloud_storage.ipynb" target="_blank">2_google_cloud_storage.ipynb</a>: Demonstração de como armazenar e acessar dados no Google Cloud Storage.
+<a href="notebook_2_1_cap_instalada_por_regiao_e_uf_tratado.ipynb" target="_blank">notebook_2_1_cap_instalada</a>: Notebook Colab com processo ETL e análise de dados com Pandas.
 
-<a href="3_bigquery_analysis.ipynb" target="_blank">3_bigquery_analysis.ipynb</a>: Exemplos de consultas SQL para análise de dados no BigQuery.
+<a href="2_2_cap_instalada_de_geracao_eletrica_por_fonte_mw.ipynb" target="_blank">notebook_2_2_cap_instalada</a>: Notebook Colab com processo ETL e análise de dados com Pandas.
 
-<a href="4_looker_studio_visualizations.ipynb" target="_blank">4_looker_studio_visualizations.ipynb</a>: Criação de visualizações utilizando o Looker Studio.
+<a href="notebook_2_3_geracao_eletrica_por_fonte_gwh_tratado.ipynb" target="_blank">notebook_2_3_geracao_eletrica</a>: Notebook Colab com processo ETL e análise de dados com Pandas.
 
-<a href="5_power_bi_dashboard.pbix" target="_blank">5_power_bi_dashboard.pbix</a>: Um arquivo Power BI contendo um dashboard interativo com visualizações de dados.
+<a href="notebook_geracao_distribuida_pyspark_tratado.ipynb" target="_blank">notebook_geracao_distribuida</a>: Consultas com PySpark.
 
-<a href="6_mongodb_queries.py" target="_blank">6_mongodb_queries.py</a>: Exemplos de consultas em um banco de dados MongoDB usando Python.
+<a href="notebook_global_horizontal_means_tratad.ipynb" target="_blank">notebook_global</a>: Notebook Colab com processo ETL usando Pandas.
 
-<a href="7_pandas_data_analysis.ipynb" target="_blank">7_pandas_data_analysis.ipynb</a>: Demonstração de análise de dados usando Python Pandas.
+<a href="notebook_iea_ponto_veiculos_pyspark_bruto.ipynb" target="_blank">notebook_iea</a>: Notebook Colab com processo ETL usando Pyspark.
 
-<a href="8_pyspark_data_processing.ipynb" target="_blank">8_pyspark_data_processing.ipynb</a>: Processamento de dados em larga escala com PySpark.
+<a href="notebook_mongoDB_carregamento.ipynb" target="_blank">notebook_mongoDB</a>: Notebook Colab com comandos para realização de backup no MongoDB.
+
+## Dicionário e Conjuntos de Dados
+Para auxiliar no entendimento do projeto, seguem o dicionário e amostragem do conjunto de dados utilizado:
+
+<a href="documentation" target="_blank">dicionario de dados</a>: Acesso aos dicionários utilizados no processamento de dados já tratados.
+
+<a href="datasets" target="_blank">conjuntos de dados</a>: Amostragem dos conjuntos de dados trabalhados no projeto em formato parquet.
 
 ## Licença
 Este projeto é licenciado sob a licença MIT.
