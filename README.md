@@ -1,6 +1,7 @@
 # **Projeto Final**
 
 Bem-vindo ao repositório do projeto de análise de dados "PANORAMA NACIONAL DE ENERGIAS RENOVÁVEIS NO BRASIL: RISCOS E OPORTUNIDADES".
+
 Este repositório contém alguns dos recursos utilizados para realizar análises de dados sobre tema proposto no projeto de conclusão do BOOTCAMP MARTECH SOULCODE ACADEMY - ANALISTA DE DADOS - AD2.
 
 Foram utilizadas tecnologias e ferramentas como o Google Colab, Google Cloud Storage, BigQuery, Looker Studio, Power BI, MongoDB, Python Pandas e PySpark para realizar análises avançadas.
